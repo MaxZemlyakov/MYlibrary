@@ -1,0 +1,14 @@
+body{
+    background-color: black;
+}
+p{
+    font-size: 28px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+    letter-spacing: 2px;
+    color: #fff;
+    background-color: rgb(255, 178, 62);
+    background-clip: text;/*ограничиываем бекграунд текста*/
+    -webkit-text-fill-color: transparent;/*текст принимает цвет бекграунда*/
+    background-image: linear-gradient(90deg, rgba(180,58,177,1) 5%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+}
