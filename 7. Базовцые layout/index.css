@@ -1,0 +1,29 @@
+body{
+    max-width: 1200px;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0 auto;
+    background-color: brown;
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    text-align: center;
+
+}
+header{
+    flex-shrink: 0;
+    height: 80px;
+    background-color: bisque;
+}
+main{
+    width: 100%;
+    flex-grow: 1;
+    background-color: rgb(146, 102, 48);
+}
+footer{
+    flex-shrink: 0;
+    height: 80px;
+    background-color: rgb(206, 116, 7);
+}
